@@ -1,0 +1,8 @@
+{
+	"name": "app",
+	"type": "module",
+	"scripts": {
+		"dev:backend": "pnpm --filter @app/backend dev",
+		"dev:frontend": "pnpm --filter @app/frontend dev"
+	}
+}
